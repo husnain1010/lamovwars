@@ -1,0 +1,860 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../font/Inter-Regular.ttf");
+}
+.nav-item .active {
+    color: #b00000;
+    border-bottom: 2px solid #b00000;
+}
+
+.king:hover {
+    color: #b00000;
+    text-decoration: none;
+}
+.nav-link.active {
+    border-bottom: 2px solid #b00000;
+}
+
+.tab-hosting {
+    font-family: "Poppins";
+
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #b00000;
+}
+.index {
+    max-width: 780px;
+    z-index: 1;
+}
+.website_font {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 54px;
+    text-align: center;
+    color: #2e2e2e;
+    margin: 0;
+}
+.king {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgba(214, 212, 212, 0.88);
+}
+
+.preminum {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #2e2e2e;
+}
+.premium__text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 444px;
+    color: #808080;
+}
+.btn-primary {
+    background: #b00000 !important;
+    border: none;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0;
+    box-shadow: 0px 0px 64px rgba(176, 0, 0, 0.3);
+    border-radius: 8px;
+    max-width: 160px;
+    height: 48px;
+}
+
+.btn-outline-dark {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+    margin: 0;
+    max-width: 160px;
+    height: 48px;
+    border-radius: 10px;
+}
+
+.tab-content {
+    padding: 10px 20px;
+}
+.nav-tabs a {
+    border: 0 !important;
+    background-color: transparent !important;
+}
+.nav-tabs li.active {
+    border-bottom: 2px solid #b00000;
+}
+.basic {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+
+    /* identical to box height, or 133% */
+    text-align: center;
+
+    color: #000000;
+}
+.basic:hover {
+    text-decoration: none;
+    color: #b00000;
+}
+.padding {
+    padding: 0 130px;
+}
+.nav-tabs li a {
+    width: 100%;
+    text-align: center;
+}
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+    width: 33%;
+}
+ul.nav.nav-tabs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+}
+.nav-tabs li {
+    flex-basis: 90px;
+    min-width: 90px;
+    display: flex;
+    align-items: flex-start;
+    margin: 0 !important;
+}
+.tabs-wrapper {
+    position: relative;
+}
+
+.scroller-btn.inactive {
+    opacity: 0.3;
+    pointer-events: none;
+}
+/*----------------------------------true cloud-------------------------------------*/
+.true__cloud {
+    font-family: "Inter";
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 64px;
+    color: #18191f;
+}
+.true__cloud__paragraph {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    max-width: 494px;
+    color: #18191f;
+}
+
+/*----------------------------------time icon section-------------------------------------*/
+.icon__heading {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.icon__paragraph {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+}
+
+/*----------------------Ready to get started with Lemon Wares?-----------------------*/
+.lemon__heading {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+}
+.discount {
+    font-family: "Poppins";
+
+    font-weight: 500;
+    font-size: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: #000000;
+    background-color: yellow;
+}
+.lemon__paragraph {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+}
+.month_progress,
+.yearly_progress {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+.progress {
+    height: 4px;
+}
+
+.card__heading {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 28px;
+    color: #000000;
+}
+.card-text {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+}
+.card__price {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 42px;
+    color: #000000;
+}
+.per__month {
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+}
+.card__button {
+    width: 235px;
+    height: 50px;
+    background: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 12px;
+}
+.card__paragraph {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #808080;
+}
+.card {
+    border: 1.5px solid #c4c4c4;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+.real__customer {
+    left: 90px;
+    position: absolute;
+    top: 56px;
+    font-family: "Inter";
+    font-weight: 800;
+    font-size: 48px;
+    color: #18191f;
+}
+.customer__paragraph {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    color: #18191f;
+}
+.customer__card {
+    background: #ffffff;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+    width: 60%;
+}
+.customer__loram {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.customer__floyd {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #18191f;
+}
+.customer__p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: "salt" on, "liga" off;
+    color: #969bab;
+}
+#cus__card {
+    width: 445px;
+}
+.customer__loram2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+}
+.customer__card {
+    width: 400px;
+}
+
+#cust {
+    width: 70%;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #b00000;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background-color: #ccc;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #ccc;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+.serve__heading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color: #18191f;
+}
+.serve__paragraph {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 449px;
+
+    color: #18191f;
+}
+.servay__text {
+    top: 40px;
+    left: 100px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 88px;
+    text-align: center;
+
+    color: #2e2e2e;
+}
+.btn__servay {
+    top: 251px;
+    left: 469px;
+}
+
+.bg {
+    background: #b00000;
+}
+.footer__paragraph {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #e6e6e6;
+}
+.footer__love {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #ffffff;
+}
+.footer__heading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #ffffff;
+}
+
+.footer__text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #e6e6e6;
+}
+.btn_primary {
+    background: #b00000 !important;
+    border: none;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 12px !important;
+    color: #ffffff;
+    margin: 0;
+    border-radius: 8px;
+    max-width: 208px;
+    height: 48px;
+}
+
+@media (max-width: 575px) {
+    .margin {
+        margin-top: 85px !important;
+    }
+    .btn_primary {
+        font-size: 8px;
+        max-width: 180px;
+        height: 35px;
+    }
+    .website_font {
+        font-size: 15px;
+    }
+    .nav {
+        display: flex;
+        justify-content: center;
+    }
+    .panel__img {
+        margin: 30px 0 30px;
+    }
+    .time__icon {
+        margin: 20px 0;
+    }
+    .icon__heading {
+        margin: 20px 0 20px;
+    }
+
+    .footer__love {
+        text-align: center;
+    }
+    .nav-link.active {
+        border-bottom: none;
+    }
+    .nav-link:hover {
+        display: none;
+    }
+    .preminum {
+        font-size: 31px;
+    }
+    .btn-primary,
+    .btn-outline-dark {
+        font-size: 10px;
+        margin: 0 0 70px 0;
+    }
+    .king {
+        padding-bottom: 3px;
+    }
+
+    .center {
+        text-align: center;
+    }
+    .padding {
+        padding: 0px 20px;
+    }
+    .basic {
+        font-size: 21px;
+        padding-bottom: 5px;
+    }
+    .card__button {
+        height: 55px;
+        width: 168px;
+    }
+    .icon-r {
+        height: 60px;
+        width: 120px;
+    }
+    .true {
+        margin-bottom: 0px;
+    }
+    .real__customer {
+        left: 102px;
+        font-size: 26px;
+        top: 70px;
+        position: absolute;
+    }
+    .lemon__heading {
+        font-size: 34px;
+        text-align: center;
+    }
+    .lemon__section {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+    .discount {
+        font-size: 8px;
+    }
+    .customer__paragraph {
+        position: absolute;
+        top: 77px;
+        left: 35px;
+        margin: 64px 0;
+    }
+    .customer__card {
+        width: 100%;
+        margin: 110px 0;
+        margin-bottom: auto;
+    }
+    .icon_img img {
+        height: 129px;
+        width: 62px;
+        margin: 0 22px;
+    }
+    #cus__card {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #cust {
+        width: 100%;
+        margin: 30px 0;
+    }
+    .serve__heading {
+        font-size: 27px;
+        text-align: center;
+        margin: -75px 0;
+        line-height: 39px;
+    }
+
+    .btn__servay {
+        height: 30px;
+        left: 95px;
+        top: -43px;
+    }
+    .servay__text {
+        top: -79px;
+        left: 30px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .serve__paragraph {
+        margin: 86px 0 0;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .bg-check {
+        margin: -68px 0;
+    }
+    .bg-blue {
+        margin: -55px 0;
+    }
+    .navbar_img {
+        display: none;
+    }
+    .navbar_icon {
+        display: none;
+    }
+    .border {
+        display: none;
+    }
+    .footer__paragraph {
+        text-align: center;
+    }
+    .parents {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .whatsapp_w {
+        width: 20px;
+    }
+    .p-t-website {
+        padding-top: 20px !important;
+        max-width: 200px !important;
+    }
+    .website_font {
+        font-size: 15px;
+    }
+    .btn_primary {
+        font-size: 8px !important;
+        max-width: 150px;
+        height: 25px;
+    }
+    .margin {
+        margin-top: 65px !important;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .website_font {
+        font-size: 20px;
+        padding-top: 40px !important;
+    }
+    .panel__img {
+        margin: 30px 0 30px;
+    }
+    .nav {
+        display: flex;
+        justify-content: center;
+    }
+    .king {
+        padding-bottom: 3px;
+    }
+    .parents {
+        display: flex;
+        justify-content: center;
+    }
+    .customer__card {
+        width: 100%;
+    }
+    .navbar_img {
+        display: none;
+    }
+    .padding {
+        padding: 0 50px;
+    }
+    .navbar_icon {
+        display: none;
+    }
+    .nav-link:hover {
+        display: none;
+    }
+    .nav-link.active {
+        border-bottom: none;
+    }
+    .preminum {
+        font-size: 25px;
+    }
+    .true__cloud__paragraph {
+        max-width: 676px;
+    }
+    .center {
+        text-align: center;
+    }
+
+    .btn-primary,
+    .btn-outline-dark {
+        font-size: 10px;
+        margin: 0 0 0px 0;
+    }
+    .girl__img {
+        margin-top: 50px !important;
+    }
+    .second__img {
+        height: 45px;
+    }
+    .real__customer {
+        font-size: 25px;
+        margin: 20px 0 0 10px;
+    }
+    .customer__paragraph {
+        font-size: 15px;
+    }
+    #cus__card {
+        width: 100%;
+    }
+    .customer__card {
+        width: 100%;
+    }
+    #cust {
+        width: 100%;
+    }
+
+    .serve__heading {
+        font-size: 37px;
+        max-width: 648px;
+    }
+    .serve__paragraph {
+        max-width: 697px;
+    }
+
+    .servay__text {
+        font-size: 25px;
+        text-align: center;
+        left: 0px;
+        top: 30px;
+        line-height: 30px;
+    }
+
+    .btn__servay {
+        top: 106px;
+        left: 171px;
+    }
+    .basic {
+        font-size: 15px;
+        padding-bottom: 8px;
+    }
+    .icon__heading {
+        font-size: 12px;
+    }
+    .btn_primary {
+        font-size: 10px !important;
+        max-width: 200px;
+        height: 40px;
+    }
+    .margin {
+        margin-top: 100px !important;
+    }
+}
+@media screen and (min-width: 992px) {
+    .margin {
+        margin-top: 240px !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .margin {
+        margin-top: 140px !important;
+    }
+    .website_font {
+        font-size: 29px;
+    }
+    .p-t-website {
+        padding-top: 50px !important;
+    }
+
+    .preminum {
+        font-size: 36px;
+    }
+    .girl__img {
+        margin: 73px 0;
+    }
+    .premium__button {
+        height: 50px;
+        width: 128px;
+        font-size: 10px;
+    }
+    .premium__button2 {
+        height: 50px;
+        width: 128px;
+        font-size: 10px;
+    }
+    .true__cloud__paragraph {
+        max-width: 720px;
+    }
+    .padding {
+        padding: 0 20px 0;
+    }
+    .real__customer {
+        font-size: 33px;
+    }
+    .customer__card {
+        width: 331px;
+    }
+    #cus__card {
+        width: 395px;
+    }
+    .serve__heading {
+        font-size: 39px;
+    }
+    .serve__paragraph {
+        font-size: 17px;
+        max-width: 657px;
+        text-align: center;
+    }
+    .servay__text {
+        font-size: 26px;
+        top: 49px;
+        left: 164px;
+        line-height: 40px;
+        max-width: 389px;
+    }
+    .btn__servay {
+        top: 154px;
+        left: 249px;
+    }
+    .cust {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .preminum {
+        font-size: 30px;
+    }
+    .icon__heading {
+        font-size: 17px;
+    }
+    #cus__card {
+        width: 376px;
+    }
+    .servay__text {
+        top: 68px;
+        left: 74px;
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .btn__servay {
+        left: 371px;
+        top: 208px;
+    }
+    .true__cloud {
+        font-size: 33px;
+    }
+}
